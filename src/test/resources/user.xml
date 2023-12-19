@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User" verbose="1" >
+    <test name="User" >
+        <classes>
+            <class name="com.demoqa.tests.TextBoxTests">
+                <parameter name="name" value="Max Mustermann"></parameter>
+                <parameter name="email" value="maxmust123@gmail.com"></parameter>
+                <parameter name="address" value="Maximillianstr 10"></parameter>
+                    </class>
+        </classes>
+    </test>
+
+</suite>
